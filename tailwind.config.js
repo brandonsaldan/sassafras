@@ -30,10 +30,7 @@ module.exports = {
       sky: colors.sky,
       teal: colors.teal,
       rose: colors.rose,
-      logo: "#ee7f79",
-      logoHover: "#f59f9a",
-      logoDarker: "#c46964",
-      logoLight: "#ffb1b0"
+      zinc: colors.zinc,
     },
     spacing: {
       px: '1px',
@@ -91,16 +88,6 @@ module.exports = {
       'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
       'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
-      'stripeOnboarding': "url('https://cdn.invii.io/file/cdn-static-assets/img/StripeOnboardBackground.png')",
-      'invii-gradient-1': "url('https://cdn.invii.io/file/cdn-static-assets/gradient/gradient-1.png')",
-      'invii-gradient-2': "url('https://cdn.invii.io/file/cdn-static-assets/gradient/gradient-2.png')",
-      'invii-gradient-3': "url('https://cdn.invii.io/file/cdn-static-assets/gradient/gradient-3.png')",
-      'invii-gradient-4': "url('https://cdn.invii.io/file/cdn-static-assets/gradient/gradient-4.png')",
-      'invii-gradient-5': "url('https://cdn.invii.io/file/cdn-static-assets/gradient/gradient-5.png')",
-      'invii-gradient-6': "url('https://cdn.invii.io/file/cdn-static-assets/gradient/gradient-6.png')",
-      'invii-gradient-7': "url('https://cdn.invii.io/file/cdn-static-assets/gradient/gradient-7.png')",
-      'invii-gradient-8': "url('https://cdn.invii.io/file/cdn-static-assets/gradient/gradient-8.png')",
-
     },
     backgroundOpacity: (theme) => theme('opacity'),
     backgroundPosition: {
