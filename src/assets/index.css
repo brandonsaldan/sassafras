@@ -1,3 +1,4 @@
+/* ./src/styles/app.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -208,17 +209,58 @@ explicitly, e.g.
     src: url("https://cdn.invii.io/file/cdn-static-assets/font/Inter-var.woff2?v=3.15") format("woff2");
 }
 
+
+.gradient-animate {
+    background: linear-gradient(-45deg, #FE90F5, #AB57FF, #ff5e6c, #fd848a);
+    background-size: 400% 400%;
+    animation: gradient 60s ease infinite;
+    height: 100vh;
+}
+
+.gradient-animate-small {
+    background: linear-gradient(-45deg, #FE90F5, #AB57FF, #ff5e6c, #fd848a);
+    animation: gradient 60s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 html {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    height: 100%;
+    font-family: Inter, Helvetica, Arial, sans-serif
 }
 
 body {
-    height: 100%;
-    @apply bg-gray-50
+    background-color: #121212;
 }
 
-body.dark {
-    @apply bg-zinc-900
+.ru {
+    text-decoration-color: #a8c23e;
+}
+
+.iu {
+    text-decoration-color: #FF7676;
+}
+
+.lu {
+    text-decoration-color: #0A66C2;
+}
+
+.tu {
+    text-decoration-color: #1DA1F2;
+}
+
+.bg-d2 {
+    background-color: #181818;
 }
