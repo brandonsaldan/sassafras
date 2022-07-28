@@ -3,6 +3,7 @@
   <bio></bio>
   <grid></grid>
   <divider></divider>
+  <spotify-presence></spotify-presence>
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import NameHeader from '../components/NameHeader.vue'
 import Bio from '../components/Bio.vue'
 import Grid from '../components/Grid.vue'
 import Divider from '../components/Divider.vue'
+import SpotifyPresence from '../components/SpotifyPresence.vue'
 
 export default {
     components: {
@@ -18,6 +20,7 @@ export default {
         Bio,
         Grid,
         Divider,
+        SpotifyPresence
     }
 }
 
