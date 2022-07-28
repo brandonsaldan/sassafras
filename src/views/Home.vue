@@ -1,9 +1,11 @@
 <template>
-  <name-header></name-header>
-  <bio></bio>
-  <grid></grid>
-  <divider></divider>
-  <spotify-presence></spotify-presence>
+  <div class="animate__animated animate__fadeIn">
+    <name-header></name-header>
+    <bio></bio>
+    <grid></grid>
+    <divider></divider>
+    <spotify-presence></spotify-presence>
+  </div>
 </template>
 
 <script>
